@@ -1,0 +1,21 @@
+from collections import OrderedDict
+from collections import deque
+#orderedDict
+orderdict = OrderedDict()
+orderdict['name'] = "moni"
+orderdict['age'] = 12
+orderdict['sex'] = 'F'
+print(orderdict)
+
+#deque
+d = deque()
+d.append(1)
+d.append(1)
+d.appendleft(3)
+print(d)
+print(d.count(1))
+d.extend([1,2])
+d.append([1,2,3])
+print(d)
+
+

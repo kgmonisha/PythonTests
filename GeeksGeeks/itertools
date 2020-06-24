@@ -1,0 +1,7 @@
+from itertools import permutations
+from itertools import combinations
+
+p = permutations([1,2,3],3)
+print(list(p))
+print(list(permutations([1,2,3,4],2)))
+print(list(combinations([1,2,3,4],2)))
